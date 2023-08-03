@@ -1,0 +1,26 @@
+{
+  "name": "node-cli-app",
+  "version": "1.0.0",
+  "description": "A console application in node",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "build": "tsc",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node ./dist/app.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "colors": "^1.4.0",
+    "inquirer": "^9.2.9",
+    "uuid": "^9.0.0"
+  },
+  "devDependencies": {
+    "@types/inquirer": "^9.0.3",
+    "@types/node": "^20.4.5",
+    "@types/uuid": "^9.0.2",
+    "typescript": "^5.1.6"
+  }
+}
